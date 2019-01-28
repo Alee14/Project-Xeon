@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <stdlib.h>
 
 int main()
 {
@@ -20,6 +21,6 @@ int main()
     year = year+1;
         
     std::cout << "You are now " << age << " and it's " << year << std::endl;
-    
+    system("pause");
     return 0;
 }

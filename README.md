@@ -3,4 +3,5 @@ A text-based game made in C++
 
 REQUIREMENTS TO COMPILE:
 
-- A C++ compiler (Such as g++)
+- A C++ compiler (I recommend MinGW)
+- Any Code Editors (Ex: VS Code, Atom, Sublime Text)
