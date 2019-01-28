@@ -1,7 +1,7 @@
 @echo off
 title Building C++ Program
 echo Building Program...
-del a.exe
-g++ -g main.cpp
+mkdir out
+g++ -g main.cpp -o out/game.exe
 echo Building Complete!
 pause>nul
