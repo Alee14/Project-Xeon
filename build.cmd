@@ -21,6 +21,5 @@ echo Created the "out" folder..
 )
 g++ --version
 g++ -g main.cpp -o out/game.exe
-title Building C++ Program - Success
 echo Building Complete!
 pause>nul
