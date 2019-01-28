@@ -2,6 +2,17 @@
 title Building C++ Program
 echo Building Program...
 echo Shell: CMD
+:findmingw
+set mingwPath=0
+if exist "C:\MinGW" (
+  set "mingwPath=C:\MinGW"
+)
+if "%mingwPath%"=="0" (
+  title Building C++ Program - Failed
+  echo MinGW could not be found. Please make sure that MinGW is installed.
+  pause>nul
+  exit
+)
 if exist out (
 echo Skipping making the "out" folder...
 ) else (    
@@ -10,5 +21,6 @@ echo Created the "out" folder..
 )
 g++ --version
 g++ -g main.cpp -o out/game.exe
+title Building C++ Program - Success
 echo Building Complete!
 pause>nul
