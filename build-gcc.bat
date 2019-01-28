@@ -11,4 +11,3 @@ echo Created the "out" folder..
 
 g++ -g main.cpp -o out/game.exe
 echo Building Complete!
-pause>nul
