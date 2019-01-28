@@ -3,11 +3,6 @@
 #include <string>
 #include <fstream>
 
-void displayMenu()
-{
-
-}
-
 int main()
 {
     int age;
