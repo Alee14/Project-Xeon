@@ -23,19 +23,19 @@ int main()
     std::cout << "Hello "<< username << "!" << std::endl;
     j["username"] = username;
     std::cout << "Press anything to continue!" << std::endl;
-    system("pause>nul");
+    std::getchar();
     system("cls");
     std::cout << "Select a year that you will be born in..." << std::endl;
     std::cin >> year;
     j["year"] = year;
     std::cout << "The year is now " << year << "!" << std::endl;
-    system("pause>nul");
+    std::getchar();
 
     age = 0;
     age = age+1;
     year = year+1;
            
     std::cout << "You are now " << age << " and it's " << year << std::endl;
-    system("pause");
+    std::getchar();
     return 0;
 }
