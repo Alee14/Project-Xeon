@@ -38,7 +38,20 @@
         "xstddef": "cpp",
         "xstring": "cpp",
         "xtr1common": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "algorithm": "cpp",
+        "array": "cpp",
+        "clocale": "cpp",
+        "forward_list": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "numeric": "cpp",
+        "unordered_map": "cpp",
+        "valarray": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }

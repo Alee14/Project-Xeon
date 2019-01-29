@@ -1,6 +1,6 @@
 @echo off
 title Building C++ Program
-echo Building Program...
+echo Running the script...
 echo Shell: CMD
 
 if exist default-msbuild.txt goto msBuild
@@ -25,6 +25,8 @@ mkdir out
 echo Created the "out" folder..
 )
 g++ --version
+echo Building the program...
+title Building C++ Program - GCC
 g++ -g main.cpp -o out/game.exe
 echo Building Complete!
 pause>nul

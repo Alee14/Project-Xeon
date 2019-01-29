@@ -1,4 +1,5 @@
 #!/bin/bash
+echo 'Not working... Sorry :('
 <<COMMENT
 echo 'Building Program...'
 echo 'Shell: Bash'
