@@ -2,6 +2,9 @@
 title Building C++ Program
 echo Building Program...
 echo Shell: CMD
+
+if exist default-msbuild.txt goto msBuild
+
 :findmingw
 set mingwPath=0
 if exist "C:\MinGW" (
